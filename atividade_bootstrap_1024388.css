@@ -1,0 +1,12 @@
+* {
+  --bs-bg-opacity: 1;
+  background-color: rgba(var(--bs-danger-rgb), var(--bs-bg-opacity)) !important;
+}
+#entrada_dado{
+  margin-top: 10 !important;
+}  
+
+
+h4{
+  margin-top: 10px;
+}
