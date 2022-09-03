@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt--br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>calculadora plano b</title>
+    <link rel="stylesheet" href="segunda_calculadora.css">
+    <script src="segunda_calculadora.php"></script> 
+      
+</head>
+<body>
+    <h1>Calculadora Mariana Dircksen - 1024388</h1>
+    <form  method="post" action="segunda_calculadora.php">
+        <p>Primeiro Número: <input type="text" name="num1"></p>
+        <p>Segundo Número: <input type="number" name="num2"></p>
+
+        <input type="radio" name="opcoes" id="operador" value="adicao"  />
+		<label >Somar</label>
+				
+		<input type="radio" name="opcoes"  id="operador" value="subtracao"/>
+		<label >Diminuir</label>
+
+        <input type="radio" name="opcoes" id="operador" value="multiplicacao"  />
+		<label >Multiplicar</label>
+				
+		<input type="radio" name="opcoes"  id="operador" value="divisao"/>
+		<label >Dividir</label>
+		
+      
+       <br>
+       <button type="submit">Informar</button>
+     </form> 
+</body>
+</html>

@@ -1,0 +1,33 @@
+*{
+    background-color: #2c8c97;
+    margin: 0;
+    padding: 0;
+}
+body{
+    text-align: center;
+}
+ 
+form{
+    margin-top: 60px;
+}
+ 
+p{
+    margin-top: 10px;
+    font-size: 20px;
+}
+#operador{
+    margin-top: 10px;
+  
+}
+label{
+    font-size: 20px;
+}
+
+button{
+    margin-top: 15px;
+    background: #069cc2; 
+    border-radius: 6px; 
+    padding: 15px; cursor: 
+    pointer; color: #fff; 
+    border: none;
+}
